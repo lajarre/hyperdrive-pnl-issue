@@ -13,6 +13,6 @@ ethers = { version = "2.0.8", features = ["ws"] }
 tokio = { version = "1", features = ["full"] }
 tracing = "0.1.40"
 tracing-subscriber = "0.3.18"
-hyperdrive-wrappers = { git = "https://github.com/delvtech/hyperdrive", tag = "v1.0.0", package = "hyperdrive-wrappers" }
-hyperdrive-math = { git = "https://github.com/delvtech/hyperdrive",  tag = "v1.0.0", package = "hyperdrive-math" }
-fixed-point = { git = "https://github.com/delvtech/hyperdrive", tag = "v1.0.0", package = "fixed-point" }
+hyperdrive-wrappers = { git = "https://github.com/delvtech/hyperdrive-rs", branch = "main", package = "hyperdrive-wrappers" }
+hyperdrive-math = { git = "https://github.com/delvtech/hyperdrive-rs",  branch = "main", package = "hyperdrive-math" }
+fixed-point = { git = "https://github.com/delvtech/hyperdrive-rs", branch = "main", package = "fixed-point" }
